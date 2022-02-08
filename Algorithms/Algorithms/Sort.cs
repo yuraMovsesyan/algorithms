@@ -1,6 +1,6 @@
 ﻿namespace Algorithms
 {
-    public static class Short
+    public static class Sort
     {
         public static List<int> Bubble (List<int> list)
         {

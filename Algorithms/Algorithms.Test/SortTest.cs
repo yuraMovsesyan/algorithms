@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Algorithms.Test
 {
     [TestClass]
-    public class ShortTest
+    public class SortTest
     {
         [TestMethod]
         public void Bubble_NaturalFrom10To0_From0To10returned()
@@ -14,7 +14,7 @@ namespace Algorithms.Test
             List<int> expected = new List<int>() { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
             //act
-            List<int> actual = Short.Bubble(x);
+            List<int> actual = Sort.Bubble(x);
 
             //assert
             CollectionAssert.AreEqual(expected, actual);
